@@ -3,12 +3,12 @@
 
 ## Set up
 ```
-bundle install
+bundle install --path=vender/bundle
 ```
 
 ## Start Servers
 ```
-ruby myapp.rb
+bundle exec shotgun
 ```
 
 ## See Also
