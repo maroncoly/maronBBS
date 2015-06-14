@@ -1,0 +1,23 @@
+
+
+<h1>myBBS</h1>
+
+<h2>投稿フォーム</h2>
+<form name="post-form" method="POST" action="/post">
+  <label>名前: </label><input type="text" name="user_name" placeholder="名前を入力してね"><br>
+  <label>内容: </label><textarea name="body" rows="4" cols="40"></textarea>
+  <input type="submit" value="送信">
+</form>
+
+<h2>最新の投稿10件</h2>
+  <% @posts.each do |post| %>
+    <hr>
+    <div class="post">
+      <p>ID: <%= post.id %></p>
+      <p>ユーザー名: <b><%= post.user_name %></b></p>
+      <p><%= post.body %></p>
+      <p><%= post.created_at %></p>
+    </li>
+  </div>
+  <% end %>
+</p>
