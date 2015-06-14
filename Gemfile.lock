@@ -27,6 +27,8 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    shotgun (0.9.1)
+      rack (>= 1.0)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -51,8 +53,6 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   mysql2
+  shotgun (~> 0.9.1)
   sinatra (= 1.4.6)
   sinatra-reloader (= 1.0)
-
-BUNDLED WITH
-   1.10.3
