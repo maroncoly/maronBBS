@@ -3,5 +3,6 @@ source 'https://rubygems.org'
 
 gem 'sinatra', '1.4.6'
 gem 'sinatra-reloader', '1.0'
-gem "activerecord"
-gem "mysql2"
+gem 'activerecord'
+gem 'mysql2'
+gem 'shotgun', '~> 0.9.1'
