@@ -8,6 +8,7 @@ bundle install --path=vender/bundle
 
 ## Start Servers
 ```
+mysql.server start
 bundle exec shotgun
 ```
 

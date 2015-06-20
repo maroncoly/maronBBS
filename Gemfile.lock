@@ -56,3 +56,6 @@ DEPENDENCIES
   shotgun (~> 0.9.1)
   sinatra (= 1.4.6)
   sinatra-reloader (= 1.0)
+
+BUNDLED WITH
+   1.10.3
